@@ -1,0 +1,5 @@
+Hay que crear este fichero que se encontrar en radcli si nos da algún problema 
+
+/etc/radcli/radiusclient.conf
+
+
