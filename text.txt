@@ -2,4 +2,24 @@ Hay que crear este fichero que se encontrar en radcli si nos da algún problema
 
 /etc/radcli/radiusclient.conf
 
+Comandos que hay que usar en asterisk:
+
+sip reload => Para recargar la configuración
+sip show users
+sip show peers
+sip show channels
+
+sudo apt-get install asterisk
+
+Ver paquetes de asterisk 
+
+apt-cache show asterisk
+apt-cache search asterisk
+
+Veremos los paquetes que podemos instalar los cuales
+instalaremos el prompt de español y el audio en español.
+
+apt-get install asterisk-prompt-es asterisk-core-sounds-es asterisk-core-sounds-es-gsm asterisk-core-sounds-es-wav asterisk-core-sounds-es-g722
+
+
 
